@@ -107,7 +107,7 @@ bool LinkedList<T>::removeBack()
 
 	if(!isEmpty())
 	{
-		if(m_length == 1)
+		if(m_size == 1)
 	  {
 	    delete m_front;
 	    m_front = nullptr;
